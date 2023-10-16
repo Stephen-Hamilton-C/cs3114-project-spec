@@ -201,9 +201,10 @@ Notes on spec as of 2023-10-16
 - You may use code from prior classes or projects
 - Code provided by instructors and OpenDSA are great starting points, and may be used
 
-
 ## Java Data Structures Classes
 <details>
+  <summary><strong>Details</strong></summary>
+  
   You cannot use Java classes that implement complex data structures.
   This means no `ArrayList`, `HashMap`, `Vector`, or anything else that
   implements lists, hash tables, or extensible arrays.
@@ -220,6 +221,8 @@ Notes on spec as of 2023-10-16
 
 ## Deliverables
 <details>
+  <summary><strong>Details</strong></summary>
+  
   Use the Eclipse WebCAT plugin for submission.
   Don't forget to add your partner's PID to the submission.
   You may only have 1 partner.
