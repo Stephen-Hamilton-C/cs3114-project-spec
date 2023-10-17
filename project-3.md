@@ -7,7 +7,7 @@ Added **Reference Tests** on 2023-10-17
 
 ## Assignment
 <details>
-  <summary><strong>Paragraph 1</strong></summary>
+  <summary><strong>Data Arrangement</strong></summary>
   
   This project sorts a file. Yes, a file.
   The input data file is several 4-byte records.
@@ -28,7 +28,7 @@ Added **Reference Tests** on 2023-10-17
 - I/O operations are to be done on 4096 byte blocks
 
 <details>
-  <summary><strong>Paragraph 2</strong></summary>
+  <summary><strong>Sorting Method</strong></summary>
   
   Sort the file in ascending (low-to-high) order using a modified Quicksort.
   The modification is the interaction between Quicksort and the file.
@@ -46,7 +46,7 @@ Added **Reference Tests** on 2023-10-17
 - Read up on OpenDSA Module 9.4 for buffer pool details
 
 <details>
-  <summary><strong>Paragraph 3</strong></summary>
+  <summary><strong>Sorting Clarification</strong></summary>
   
   This is not an external sorting algorithm. (See OpenDSA Module 9.6)
   This is instead a Quicksort on "virtual memory" in the form of a large array on disk.
@@ -60,7 +60,7 @@ Added **Reference Tests** on 2023-10-17
 
 ## Design Considerations
 <details>
-  <summary><strong>Paragraph 1</strong></summary>
+  <summary><strong>Buffer Pool</strong></summary>
   
   The biggest concern is the interaction between Quicksort and the file itself.
   Pay careful attention to the buffer pool,
@@ -78,7 +78,7 @@ Added **Reference Tests** on 2023-10-17
 - The Quicksort should be thinking about records
 
 <details>
-  <summary><strong>Paragraph 2</strong></summary>
+  <summary><strong>Performance</strong></summary>
   
   Performance will be a grade-killer!
   Test cases will be timed, so efficiency is important here.
@@ -99,7 +99,7 @@ Added **Reference Tests** on 2023-10-17
 
 ## Invocation and I/O Files
 <details>
-  <summary><strong>Paragraph 1</strong></summary>
+  <summary><strong>Command Line Arguments</strong></summary>
   
   The program is invoked like so:
   ```
@@ -136,7 +136,7 @@ Added **Reference Tests** on 2023-10-17
   - **APPEND** to this file, do **NOT** overwrite it!
 
 <details>
-<summary><strong>Paragraph 2</strong></summary>
+<summary><strong>Exit State</strong></summary>
   
   After the program exits, your data file should be in a sorted state.
   Don't forget to flush buffers from your buffer pool,
@@ -147,11 +147,12 @@ Added **Reference Tests** on 2023-10-17
 - Flush all buffers in your buffer pool to ensure the file gets updated
 
 <details>
-  <summary><strong>Paragraph 3</strong></summary>
+  <summary><strong>Statistics File</strong></summary>
   
   Write statistics to the `<statistic-file-name>` parameter.
   _Do not overwrite the statistic file!_
   Instead, **append** to it new statistics.
+  See summary for data to write to this file.
 </details>
 
 - _Do not overwrite the statistic file!_ Append to it instead.
@@ -169,7 +170,7 @@ Added **Reference Tests** on 2023-10-17
 ## Programming Standards
 
 <details>
-  <summary><strong>Paragraph 1</strong></summary>
+  <summary><strong>Good Practice</strong></summary>
   
   if (reader instanceof Male) {  
   &emsp;Be a good boy programmer 😇  
@@ -188,7 +189,7 @@ Added **Reference Tests** on 2023-10-17
 - Only one class per source file. Only exception is small inner classes (Such as a LinkedList's Node class)
 
 <details>
-  <summary><strong>Paragraph 2</strong></summary>
+  <summary><strong>Getting Help</strong></summary>
   
   Professors and TAs want to help you (except Cao),
   so make sure your code is readable before coming to a professor or TA.
@@ -200,7 +201,7 @@ Added **Reference Tests** on 2023-10-17
 - Write your docs as you write your program
 
 <details>
-  <summary><strong>Paragraph 3</strong></summary>
+  <summary><strong>Plagarism</strong></summary>
   
   Only use code you have written, so no ChatGPT!
   You may use code you have written for other CS classes, such as CS2114.
