@@ -1,9 +1,9 @@
 # Project 3 - Sorting
-Notes on spec as of 2023-10-16
-Updated **Java Data Structures Classes** on 2023-10-17
-Updated **Design Considerations** on 2023-10-17
-Added **Milestones** on 2023-10-17
-Added **Reference Tests** on 2023-10-17
+Notes on spec as of 2023-10-16  
+Updated **Java Data Structures Classes** on 2023-10-17  
+Updated **Design Considerations** on 2023-10-17  
+Added **Milestones** on 2023-10-17  
+Added **Reference Tests** on 2023-10-17  
 
 ## Assignment
 <details>
