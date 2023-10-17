@@ -1,5 +1,9 @@
 # Project 3 - Sorting
 Notes on spec as of 2023-10-16
+Updated **Java Data Structures Classes** on 2023-10-17
+Updated **Design Considerations** on 2023-10-17
+Added **Milestones** on 2023-10-17
+Added **Reference Tests** on 2023-10-17
 
 ## Assignment
 <details>
@@ -80,10 +84,17 @@ Notes on spec as of 2023-10-16
   Test cases will be timed, so efficiency is important here.
   If you make a bad buffer pool or 
   do a lot of byte copying in your Quicksort implementation, you will suffer.
+
+  Note that WebCAT is faster than our computers.
+  It will tell you how long your method took if it takes too long.
+  You can use this information and then time the method yourself
+  to get an idea of the time ratios between your computer and WebCAT's.
+  [Source](https://piazza.com/class/lldsd37jppe6qs/post/773)
 </details>
 
 - **Performance is important for this project!**
 - Test cases are timed
+- Your computer is slower than WebCAT's. If you're failing runtime tests, compare your runtime to WebCAT's to get an idea of how much you actually need to decrease the time. [Source](https://piazza.com/class/lldsd37jppe6qs/post/773)
 - Don't do a lot of byte copying in your Quicksort
 
 ## Invocation and I/O Files
@@ -218,6 +229,7 @@ Notes on spec as of 2023-10-16
 - Standard arrays (`Object[]`, `int[]`, etc.) are fine
 - Built-in classes for string processing, byte arrays, parsing, are fine
   - `StringBuilder`, `Scanner`
+- You may use the built-in `ByteBuffer` class. [Source](https://piazza.com/class/lldsd37jppe6qs/post/lnqb34g7cru5e6)
 
 ## Deliverables
 <details>
@@ -276,3 +288,24 @@ Place this at the top of your main class:
 //   letter of this restriction.
 ```
 If you don't, you get a zero :(
+
+# Milestones
+There are three milestones over the course of the project. There are no points explicitly allocated to milestones, but if you MISS 2 milestones, there is a 5 point penalty. If you MISS all three milestones, there is a 10 point penalty.
+
+## Milestone 1: Friday, 10/20
+- Pass 2 Web-CAT instructor reference tests
+- Have NONE of your own tests failed
+
+## Milestone 2: Wednesday, 10/25
+- Pass 3 Web-CAT instructor reference tests
+- Have NONE of your own tests failed
+- Have at least 1 point for Style/Coding
+
+## Milestone 3: Monday, 10/30
+- Pass 5 Web-CAT instructor reference tests.
+- Have NONE of your own tests failed
+- Have at least 5 points for Style/Coding
+
+# Reference Tests
+All Reference tests, courtesy of lofiwifi from the 3114 Discord:
+![reference tests](https://cdn.discordapp.com/attachments/1103131079965163524/1163891438640189440/image.png?ex=6541395f&is=652ec45f&hm=4a0d55af89369374513bd023c2afec13a3b8f629542004a108a567d771595e0c&)
