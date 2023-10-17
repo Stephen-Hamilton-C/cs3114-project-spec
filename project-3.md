@@ -35,14 +35,14 @@ Added **Reference Tests** on 2023-10-17
   The array being sorted will be the file itself, rather than an array.
   Accesses to the file will be mediated by a buffer pool.
   The buffer pool stores 4096-byte blocks, totalling 1024 records.
-  The buffer pool is organized using the Last Recently Used (LRU) replacement scheme.
+  The buffer pool is organized using the Least Recently Used (LRU) replacement scheme.
   OpenDSA Module 9.4 has further details.
 </details>
 
 - Quicksort the file in ascending order
 - A buffer pool is used to access the file
 - The buffer pool stores 4096 bytes, or 1024 records
-- The buffer pool is organized by Last Recently Used
+- The buffer pool is organized by Least Recently Used
 - Read up on OpenDSA Module 9.4 for buffer pool details
 
 <details>
