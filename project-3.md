@@ -1,6 +1,6 @@
 # Project 3 - Sorting
 Notes on spec as of 2023-10-16  
-Updated **Java Data Structures Classes** on 2023-10-17  
+Updated **Java Data Structures Classes** on 2023-10-19  
 Updated **Design Considerations** on 2023-10-17  
 Added **Milestones** on 2023-10-17  
 Added **Reference Tests** on 2023-10-17  
@@ -231,6 +231,7 @@ Added **Reference Tests** on 2023-10-17
 - Built-in classes for string processing, byte arrays, parsing, are fine
   - `StringBuilder`, `Scanner`
 - You may use the built-in `ByteBuffer` class. [Source](https://piazza.com/class/lldsd37jppe6qs/post/lnqb34g7cru5e6)
+- You may use the built-in `FileWriter` class. [Source](https://piazza.com/class/lldsd37jppe6qs/post/812)
 
 ## Deliverables
 <details>
