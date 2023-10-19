@@ -308,6 +308,11 @@ There are three milestones over the course of the project. There are no points e
 - Have NONE of your own tests failed
 - Have at least 5 points for Style/Coding
 
+## Final Due Date
+Early Bonus Date (10 point bonus): Wednesday, November 1 at 11:00 PM  
+Final Due Date: Thursday, November 2 at 11:00 PM  
+This project is worth 100 points (10% of the semester total).
+
 # Reference Tests
 All Reference tests, courtesy of lofiwifi from the 3114 Discord:
 ![reference tests](https://cdn.discordapp.com/attachments/1103131079965163524/1163891438640189440/image.png?ex=6541395f&is=652ec45f&hm=4a0d55af89369374513bd023c2afec13a3b8f629542004a108a567d771595e0c&)
