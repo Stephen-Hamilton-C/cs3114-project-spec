@@ -12,3 +12,4 @@ and someone else can summarize the data.
 
 ## Table of Contents
 - [Project 3 - Sorting](project-3.md)
+- [Project 4 - Graph](project-4.md)
