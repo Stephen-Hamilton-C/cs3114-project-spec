@@ -8,6 +8,7 @@ Notes on spec as of 11-3-23
   Records will store artist and track names.
   We will primarily be using HashTables and Graphs in this project.
 </details>
+
 - Analyzing a subset of the Million Song database
 - Records store artist and track names
 - We will use HashTables and Graphs
@@ -26,6 +27,7 @@ Notes on spec as of 11-3-23
   So it will grow as it fills up.
   If it exceeds 50% full from an insert, expand the array and rehash all items.
 </details>
+
 - Two closed hash tables, one for artist names, another for song titles
 - Read OpenDSA Chapter 10
 - Use `sfold` string hashing as described in OpenDSA
