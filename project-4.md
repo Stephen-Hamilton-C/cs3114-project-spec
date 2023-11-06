@@ -1,5 +1,5 @@
 # Project 4 - Graphing
-Notes on spec as of 11-3-23
+Notes on spec as of 11-6-23
 
 ## Assignment
 <details>
