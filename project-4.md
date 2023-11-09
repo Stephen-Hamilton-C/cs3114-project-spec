@@ -358,5 +358,38 @@ Final Due Date: Wednesday, December 6 at 11:00 PM
 This project is worth 150 points (15% of the semester total).
 
 # Reference Tests
-No reference tests are known at this time.
-When the list is found, this section will be updated.
+- test1Communication
+- test_hashEasyInsert
+  - hash easy insert
+- test_hashBasicInsert1
+  - hash basic insert
+- test_hashBasicInsert2
+  - hash basic insert
+- test_hashAdvancedInsert
+  - hash advanced insert
+- test_hashEasyDelete
+  - hash easy delete
+- test_hashBasicDelete1
+  - hash basic delete
+- test_hashBasicDelete2
+  - hash basic delete
+- test_hashAdvancedDelete1
+  - hash advanced delete
+- test_hashAdvancedDelete2
+  - hash advanced delete
+- test_graphEasyInsert
+  - graph easy insert
+- test_graphBasicInsert1
+  - graph basic insert
+- test_graphBasicInsert2
+  - graph basic insert
+- test_graphAdvancedInsert
+  - graph advanced insert
+- test_graphEasyDelete
+  - graph easy delete
+- test_graphBasicDelete
+  - graph basic delete
+- test_graphAdvancedDelete
+  - graph advanced delete
+- test_sampleInputOutput
+  - sample input output
