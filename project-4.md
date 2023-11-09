@@ -1,5 +1,6 @@
 # Project 4 - Graphing
-Notes on spec as of 11-6-23
+Notes on spec as of 11-6-23  
+Milestones updated 11-9-23
 
 ## Assignment
 <details>
@@ -332,19 +333,19 @@ https://docs.google.com/document/d/1HRFXDswAfyYkjom0x0TR9LnM-7JbQZqAorXOlsEQ5P8/
 # Milestones
 There are three milestones over the course of the project. There are no points explicitly allocated to milestones, but if you MISS 2 milestones, there is a 5 point penalty. If you MISS all three milestones, there is a 10 point penalty.
 
-## Milestone 1: `TBD`
-- Pass `TBD` Web-CAT instructor reference tests
+## Milestone 1: Thursday, 11/16
+- Pass 4 Web-CAT instructor reference tests
 - Have NONE of your own tests failed
 - Have 75% mutation coverage
 
-## Milestone 2: `TBD`
-- Pass `TBD` Web-CAT instructor reference tests
+## Milestone 2: Tuesday, 11/28
+- Pass 7 Web-CAT instructor reference tests
 - Have NONE of your own tests failed
 - Have 75% mutation coverage
 - Have at least 1 point for Style/Coding
 
-## Milestone 3: `TBD`
-- Pass `TBD` Web-CAT instructor reference tests.
+## Milestone 3: Friday, 12/1
+- Pass 11 Web-CAT instructor reference tests.
 - Have NONE of your own tests failed
 - Have 90% mutation coverage
 - Have at least 5 points for Style/Coding
